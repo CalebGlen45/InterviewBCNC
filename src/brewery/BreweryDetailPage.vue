@@ -40,19 +40,19 @@ onMounted(loadBrewery);
       </div>
       <div v-if="brewery?.longitude" class="d-flex">
         <p class="mr-2"> Longitude: </p>
-        <p class="text-black mr-1"> {{ brewery?.longitude }}, </p>
+        <p class="text-black mr-1"> {{ brewery.longitude }}, </p>
       </div>
       <div v-if="brewery?.latitude" class="d-flex">
         <p class="mr-2"> Latitude: </p>
-        <p class="text-black mr-1"> {{ brewery?.latitude }}, </p>
+        <p class="text-black mr-1"> {{ brewery.latitude }}, </p>
       </div>
       <div v-if="brewery?.phone" class="d-flex">
         <p class="mr-2"> Phone Number: </p>
-        <p class="text-black mr-1"> {{ brewery?.phone }} </p>
+        <p class="text-black mr-1"> {{ brewery.phone }} </p>
       </div>
-      <div class="d-flex">
+      <div v-if="brewery?.website_url" class="d-flex">
         <p class="mr-2"> Website: </p>
-        <p class="text-black mr-1"> {{ brewery?.website_url }} </p>
+        <p class="text-black mr-1"> {{ brewery.website_url }} </p>
       </div>
     </v-card-text>
   </v-card>
