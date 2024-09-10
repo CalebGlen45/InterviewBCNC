@@ -77,9 +77,9 @@ watch(keywords, loadBreweries);
     @load="loadMoreBreweries"
   >
     <div class="pb-1 d-flex flex-wrap">
-      <v-list>
-        <v-list-item v-for="brewery in breweries" :key="brewery.id" @click="goToBreweryDetailPage(brewery.id)">
-          <v-card>
+      <v-list class="bg-transparent">
+        <v-list-item v-for="brewery in breweries" :key="brewery.id">
+          <v-card :flat="true" @click="goToBreweryDetailPage(brewery.id)">
             <v-card-text>
               <div class="d-flex">
                 <p> {{ brewery.name }} </p>
