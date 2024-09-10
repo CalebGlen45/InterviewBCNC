@@ -2,7 +2,7 @@
 
 Here is my submission for the Interview Project for BCNC, below is a video demoing the project that I have created based on the requirements.
 
-[my link](/demo/Demo%20of%20project%20for%20BCNC.mp4)
+[Demo of Project](Demo%20of%20project%20for%20BCNC.mp4)
 
 ## Project Setup
 
